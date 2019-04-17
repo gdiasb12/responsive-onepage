@@ -1,0 +1,1151 @@
+/* External Fonts */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Light.ttf');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Bold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-ExtraBold.ttf');
+    font-weight: Bold;
+}
+
+@font-face {
+    font-family: 'Racing Sans One';
+    src: url('../fonts/racingsansone/RacingSansOne-Regular.ttf');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+.text-primary {
+    color: #0059ff !important;
+}
+
+img.logo_site {
+    height: 70px;
+}
+
+/* Widget Phone Header */
+.widget-phone-header div.phone-icon,
+.widget-phone-header div.phone-list {
+    display: inline-block;
+}
+
+.widget-phone-header div.phone-icon img {
+    display: block;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.widget-phone-header div.phone-list p {
+    font-weight: 800;
+    font-family: 'Open Sans';
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.widget-phone-header div.phone-list p span {
+    font-weight: 600;
+    color: #777;
+}
+
+/* Content Call to Learn */
+div#call_to_learn {
+    text-align: center;
+}
+
+div#call_to_learn>p {
+    color: #e90011;
+    font-weight: 800;
+}
+
+div#call_to_learn #toll_free p {
+    background: #e90011;
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: .75rem !important;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+div#call_to_learn #toll_free p a {
+    font-weight: 800;
+}
+
+/* Content Form */
+section div#content_form {
+    background-image: url('../img/backgrounds/lg/bg_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section div#content_form #form_area {
+    background-color: #0059ff;
+    font-family: 'Open Sans';
+    border-radius: .75rem !important;
+}
+
+section div#content_form #form_area #form_get_help {
+    border-bottom-right-radius: .75rem !important;
+    border-bottom-left-radius: .75rem !important;
+}
+
+section div#content_form #form_area #form_get_help button {
+    background-image: url('../img/buttons/btn_form.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 202px;
+    border: none;
+    background-color: transparent;
+}
+
+section div#content_form #form_area p.form-info {
+    padding: 0 15px;
+    color: #fff;
+}
+
+section div#content_form #form_area #form_get_help p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+section div#content_testimonials div.card-testimonial p span {
+    z-index: 3;
+    position: relative;
+}
+
+section div#content_testimonials div.card-testimonial p:before {
+    content: '';
+    background-image: url(../img/icons/icon_marks_start.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    z-index: 2;
+    width: 1.7rem;
+    height: 1.3rem;
+    margin-left: -1rem;
+    margin-top: 0;
+}
+
+section div#content_testimonials div.card-testimonial p:after {
+    content: '';
+    background-image: url(../img/icons/icon_marks_end.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 1.7rem;
+    height: 1.3rem;
+    margin-left: -1rem;
+    margin-bottom: 0.6rem;
+}
+
+div#logos_area {
+    display: inline-block;
+}
+
+section div#content_form div#tears_area .tears-img {
+    margin-right: -15px;
+}
+
+section div#content_form div#tears_area .tears-img {
+    text-align: right;
+}
+
+/* Content Testimonials*/
+section div#content_testimonials {
+    background-image: url('../img/backgrounds/lg/bg_testimonials.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+section div#content_testimonials h5 {
+    font-weight: 800;
+}
+
+section div#content_testimonials img {
+    border: 4px solid #FFF;
+}
+
+/* Content Choose Us*/
+section div#content_choose_us {
+    margin-top: 40px;
+}
+
+section div#content_choose_us #text_choose_us h4,
+section div#content_choose_us h5,
+section div#content_custom_adv h5 {
+    font-weight: 800;
+}
+
+section div#content_choose_us #text_choose_us p,
+section div#content_choose_us .offers-list p,
+section div#content_custom_adv .offers-list p {
+    font-weight: 600;
+}
+
+/* Content PDF Guide*/
+section div#content_pdf_guide {
+    background-image: url('../img/backgrounds/lg/bg_ebook.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+section div#content_pdf_guide .ebook-title {
+    font-weight: bold;
+    line-height: 100%;
+    text-shadow: 2px 2px #000;
+    letter-spacing: -1px;
+}
+
+section div#content_pdf_guide .text-pdf {
+    font-size: 1.25rem;
+}
+
+section div#content_pdf_guide .text-pdf em {
+    font-weight: 600;
+}
+
+/* Content Customized Advertisement*/
+section div#content_custom_adv div#call_to_learn>p {
+    color: #000;
+    font-weight: 600
+}
+
+section div#content_custom_adv div#call_to_learn #toll_free p {
+    background-color: #fd6f1f;
+    font-size: 1rem;
+
+}
+
+.list-group-horizontal {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+footer .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0 .5rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    color: #ccc;
+    border: none;
+    border-left: 1px solid #ccc;
+}
+
+footer .list-group {
+    display: inline-flex;
+}
+
+footer .list-group-item:first-child {
+    border: none;
+}
+
+footer div#footer_logo img {
+    height: 60px;
+}
+
+section div#content_form #form_area:before {
+    content: '';
+    background-image: url(../img/icons/icon_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -12%;
+    right: -8%;
+    z-index: 2;
+    width: 15%;
+    height: 300px;
+}
+
+section div#content_pdf_guide #text_guide .ebook-title:after {
+    content: '';
+    background-image: url(../img/icons/icon_arrow_ebook.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    z-index: 2;
+    height: 300px;
+    bottom: -20%;
+    right: 31%;
+    width: 14%;
+}
+
+
+/* Desktop */
+@media (min-width: 1025px) {
+    .form-control {
+        height: 60px;
+    }
+
+    .widget-phone-header div.phone-list p {
+        font-size: 1.8rem;
+        font-weight: normal;
+        line-height: 110%;
+    }
+
+    .widget-phone-header div.phone-list p a {
+        font-weight: 800;
+        font-size: 2.2rem;
+    }
+
+    .widget-phone-header div.phone-list p span {
+        font-weight: normal;
+        font-size: 1.6rem;
+    }
+
+    .widget-phone-header div.phone-icon img {
+        height: 60px;
+        margin-right: 20px;
+    }
+
+    img#img_stop_pay {
+        width: 73%;
+        margin: 3.5rem 0;
+    }
+
+    div#logos_area {
+        float: right;
+    }
+
+    div#logos_area img {
+        width: 130px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    section div#content_form {
+        padding-bottom: 3rem;
+    }
+
+    section div#content_form #form_area h3 {
+        font-size: 2.1rem;
+        font-weight: 800;
+    }
+
+    section div#content_form #form_area .form-info {
+        font-weight: 600;
+    }
+
+    section div#content_form #form_area #form_get_help button {
+        width: 300px;
+        height: 72px;
+        max-width: 80%;
+    }
+
+    section div#content_form #form_area #form_get_help p {
+        font-size: 0.5rem;
+    }
+
+    section div#content_testimonials div.card-testimonial p:after {
+        margin-bottom: 2.5rem;
+    }
+
+    section div#content_testimonials {
+        background-size: 100% auto;
+        padding-top: 200px;
+    }
+
+    section div#content_testimonials div.card-testimonial {
+        margin-top: 1rem;
+    }
+
+    section div#content_testimonials div.card-testimonial div {
+        float: left;
+    }
+
+    section div#content_testimonials div.card-testimonial img {
+        width: 180px;
+        margin-right: 20px;
+    }
+
+    section div#content_testimonials div.card-testimonial h5 {
+        padding-top: 10px;
+    }
+
+    section div#content_testimonials div.card-testimonial p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+
+    }
+
+    section div#content_testimonials div.card-testimonial.first-card {
+        padding-right: 10%;
+    }
+
+    section div#content_testimonials div.card-testimonial.last-card {
+        padding-left: 10%;
+    }
+
+    div#call_to_learn>p {
+        font-size: 2.8rem;
+        letter-spacing: .2rem;
+        font-weight: 600;
+        margin-top: 4rem;
+    }
+
+    div#call_to_learn #toll_free p,
+    section div#content_custom_adv div#call_to_learn #toll_free p {
+        font-size: 2rem;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg {
+        padding-left: calc(5% + 15px);
+    }
+
+    section div#content_choose_us div#text_choose_us_lg h4,
+    section div#content_custom_adv .offers-list h5 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-top: 4rem;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg p {
+        font-size: 1.2rem;
+        line-height: 220%;
+    }
+
+    section div#content_choose_us .offers-list {
+        padding: 0 5%;
+        margin-top: 3rem;
+    }
+
+    section div#content_pdf_guide {
+        padding-top: 3rem;
+    }
+
+    section div#content_pdf_guide #text_guide {
+        padding: 0 3rem;
+        margin-bottom: 3rem;
+    }
+
+    section div#content_pdf_guide #text_guide .ebook-title {
+        font-size: 3rem;
+    }
+
+    section div#content_pdf_guide .img_ebook {
+        width: 75%;
+        float: right;
+    }
+
+    section div#content_custom_adv .offers-list p {
+        line-height: 200%;
+        font-size: 1.2rem;
+        font-weight: normal;
+        padding: 0 10%;
+        margin-bottom: 3rem;
+    }
+
+    footer #footer_center_area {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    footer div#logos_area {
+        float: left;
+        position: absolute;
+    }
+
+    footer div#logos_area img {
+        width: 100px;
+    }
+
+    footer .widget-phone-header {
+        float: right;
+    }
+
+    footer div#footer_logo img {
+        height: 50px;
+    }
+
+    section div#content_form #form_area:before {
+        right: -5%;
+    }
+}
+
+@media (min-width: 1367px) {
+    img.logo_site {
+        height: 90px;
+    }
+
+    div#logos_area img {
+        width: 180px;
+    }
+
+    .form-control {
+        height: 80px;
+        margin-bottom: 25px;
+    }
+
+    .widget-phone-header div.phone-list p {
+        font-size: 2.5rem;
+        font-weight: normal;
+        line-height: 100%;
+    }
+
+    .widget-phone-header div.phone-list p a {
+        font-weight: 800;
+        font-size: 3rem;
+    }
+
+    .widget-phone-header div.phone-list p span {
+        font-weight: normal;
+        font-size: 1.6rem;
+    }
+
+    .widget-phone-header div.phone-icon img {
+        height: 75px;
+        margin-right: 20px;
+    }
+
+    section div#content_form {
+        padding-bottom: 200px;
+        background-position-y: bottom;
+    }
+
+    section div#content_form #form_area #form_get_help button {
+        width: 400px;
+        height: 100px;
+    }
+
+    section div#content_form #form_area #form_get_help p {
+        font-size: 0.7rem;
+    }
+
+    section div#content_form #form_area h3 {
+        font-size: 3rem;
+    }
+
+    section div#content_form #form_area p.form-info {
+        font-size: 1.4rem;
+    }
+
+    section div#content_testimonials div.card-testimonial {
+        margin-top: 2rem;
+    }
+
+    section div#content_testimonials div.card-testimonial img {
+        width: 250px;
+        margin-right: 50px;
+    }
+
+    section div#content_testimonials div.card-testimonial h5 {
+        font-size: 2rem;
+    }
+
+    section div#content_testimonials div.card-testimonial p {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+    }
+
+    section div#content_testimonials div.card-testimonial p:before {
+        width: 2.5rem;
+        height: 2rem;
+        margin-left: -1.5rem;
+        margin-top: -0.5rem;
+    }
+
+    section div#content_testimonials div.card-testimonial p:after {
+        width: 2.5rem;
+        height: 2rem;
+        margin-left: -1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    section div#content_testimonials div.card-testimonial.first-card {
+        margin-top: 5rem !important;
+    }
+
+    div#call_to_learn>p {
+        font-size: 3.8rem;
+        letter-spacing: .5rem;
+        margin-top: 5rem;
+    }
+
+    div#call_to_learn #toll_free p,
+    section div#content_custom_adv div#call_to_learn #toll_free p {
+        font-size: 2.5rem;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg {
+        padding-left: 10%;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg h4,
+    section div#content_custom_adv .offers-list h5 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin-top: 5rem;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg p {
+        font-size: 2rem;
+        padding-top: 30px;
+    }
+
+    .get-help-now {
+        height: 90px;
+    }
+
+    section div#content_choose_us .offers-list img {
+        width: 90px;
+    }
+
+    section div#content_choose_us .offers-list h5 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    section div#content_choose_us .offers-list p,
+    section div#content_custom_adv .offers-list p {
+        font-size: 1.5rem;
+        padding-top: 10px;
+        font-weight: normal;
+
+    }
+
+    section div#content_pdf_guide #text_guide .ebook-title {
+        font-size: 5rem;
+        letter-spacing: -4px;
+    }
+
+    section div#content_pdf_guide .text-pdf {
+        font-size: 2rem;
+    }
+
+    section div#content_pdf_guide .img_ebook {
+        width: 80%;
+    }
+
+    section div#content_pdf_guide #text_guide img {
+        height: 60px;
+    }
+
+    section div#content_custom_adv div#call_to_learn>p {
+        font-size: 3rem;
+        letter-spacing: .6rem;
+        font-weight: normal;
+    }
+
+
+    footer div#logos_area img {
+        width: 150px;
+    }
+
+    section div#content_pdf_guide #text_guide .ebook-title:after {
+        bottom: 5%;
+        right: 26%;
+        width: 13%;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    img.logo_site {
+        height: 50px;
+    }
+
+    img#img_stop_pay {
+        width: 70%;
+        margin: 1.5rem 0;
+    }
+
+    div#logos_area {
+        float: right;
+    }
+
+    div#logos_area img {
+        width: 70px;
+    }
+
+    section div#content_form div#tears_area .tears-img img {
+        width: 100%;
+    }
+
+    section div#content_form {
+        background-image: url('../img/backgrounds/md/bg_header.png');
+    }
+
+    section div#content_form #form_area {
+        padding-top: 1rem !important;
+    }
+
+    section div#content_form #form_area h3 {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    section div#content_form #form_area p.form-info {
+        font-size: .6rem;
+    }
+
+    section div#content_form #form_area #form_get_help p {
+        font-size: .3rem;
+    }
+
+    section div#content_form #form_area #form_get_help button {
+        height: 38px;
+        width: 150px;
+    }
+
+    section div#content_testimonials {
+        background-image: url('../img/backgrounds/md/bg_testimonials.png');
+        padding-top: 5rem;
+    }
+
+    section div#content_testimonials div.card-testimonial {
+        margin-bottom: 2rem;
+    }
+
+    section div#content_testimonials div.card-testimonial div {
+        float: left;
+    }
+
+    section div#content_testimonials div.card-testimonial img {
+        width: 180px;
+        margin-right: 30px;
+    }
+
+    section div#content_testimonials div.card-testimonial h5 {
+        padding-top: 10px;
+    }
+
+    section div#content_testimonials div.card-testimonial p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+
+    }
+
+    section div#content_testimonials div.card-testimonial.first-card {
+        padding-left: 20%;
+        padding-right: 5%;
+    }
+
+    section div#content_testimonials div.card-testimonial.last-card {
+        padding-right: 20%;
+        padding-left: 5%;
+    }
+
+    div#call_to_learn>p {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        font-weight: 600;
+        margin-top: 4rem;
+    }
+
+    div#call_to_learn #toll_free p,
+    section div#content_custom_adv div#call_to_learn #toll_free p {
+        font-size: 1.8rem;
+    }
+
+    section div#content_choose_us {
+        padding-bottom: 2rem;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg p {
+        padding: 1rem 10%;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg h4 {
+        padding: 1rem 40% 1rem 10%;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg h4,
+    section div#content_choose_us .offers-list h5,
+    section div#content_custom_adv .offers-list h5 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg p {
+        font-size: 1.5rem;
+        line-height: 220%;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg p #img_seller {
+        float: right;
+    }
+
+    section div#content_choose_us .offers-list img {
+        width: 80px;
+    }
+
+    section div#content_choose_us .offers-list {
+        margin-top: 3rem;
+    }
+
+    section div#content_choose_us .offers-list p,
+    section div#content_custom_adv .offers-list p {
+        margin-top: 1.7rem;
+        padding: 0 10%;
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
+
+    section div#content_pdf_guide {
+        background-image: url('../img/backgrounds/md/bg_ebook.png');
+        padding-top: 2rem;
+    }
+
+    section div#content_pdf_guide .img_ebook {
+        width: 60%;
+    }
+
+    section div#content_pdf_guide #text_guide img {
+        height: 80px;
+    }
+
+    section div#content_pdf_guide .ebook-title {
+        font-size: 3.5rem;
+        letter-spacing: -3px;
+    }
+
+    section div#content_pdf_guide .text-pdf {
+        font-size: 2rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer div#logos_area {
+        float: none;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    footer div#logos_area img {
+        width: 120px;
+    }
+
+    footer #footer_center_area .widget-phone-header div.phone-list p {
+        font-size: 1.8rem;
+        font-weight: normal;
+        line-height: 100%;
+    }
+
+    footer #footer_center_area .widget-phone-header div.phone-list p a {
+        font-weight: 800;
+        font-size: 1.9rem;
+    }
+
+    footer #footer_center_area .widget-phone-header div.phone-list p span {
+        font-weight: normal;
+        font-size: 1.6rem;
+    }
+
+    section div#content_form #form_area:before {
+
+        right: -2%;
+        width: 12%;
+    }
+
+    section div#content_pdf_guide #text_guide .ebook-title:after {
+        background-image: url(../img/icons/icon_sm_arrow_ebook.png);
+        bottom: 10px;
+        right: 11%;
+        width: 8%;
+        transform: rotate(0);
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+    section div#content_form {
+        padding-bottom: 100px;
+        background-position-y: bottom;
+    }
+
+    section div#content_form #form_area #form_get_help {
+        padding: 2rem 1rem !important;
+
+    }
+
+    section div#content_form div#tears_area .tears-img img {
+        width: 90%;
+    }
+
+    section div#content_testimonials {
+        padding-top: 140px;
+    }
+
+    section div#content_testimonials div.card-testimonial,
+    section div#content_choose_us .offers-list {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg h4,
+    section div#content_choose_us .offers-list h5,
+    section div#content_custom_adv .offers-list h5 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    section div#content_testimonials div.card-testimonial h5 {
+        font-size: 2rem;
+
+    }
+
+    section div#content_testimonials div.card-testimonial p {
+        font-size: 1.3rem;
+    }
+
+    section div#content_testimonials div#call_to_learn {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg h4 {
+        padding: 1rem 30% 1rem 10%;
+    }
+
+    section div#content_pdf_guide {
+        background-image: url('../img/backgrounds/md/bg_ebook.png');
+        padding-top: 2rem;
+    }
+
+    section div#content_pdf_guide .img_ebook {
+        width: 60%;
+    }
+
+    section div#content_choose_us {
+        padding-bottom: 2rem;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg p {
+        padding: 1rem 10%;
+    }
+
+    section div#content_choose_us div#img_choose_us {
+        display: none !important;
+    }
+
+    section div#content_choose_us div#text_choose_us_lg p #img_seller {
+        display: block !important;
+    }
+
+    section div#content_pdf_guide #text_guide,
+    section div#content_pdf_guide #content_img_ebook,
+    footer #footer_center_area div,
+    section div#content_choose_us div#text_choose_us_lg {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    section div#content_pdf_guide #text_guide {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        order: 1;
+        text-align: center !important;
+    }
+
+    section div#content_pdf_guide #content_img_ebook {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    section div#content_pdf_guide #text_guide .ebook-title:after {
+        background-image: url(../img/icons/icon_sm_arrow_ebook.png);
+        bottom: 10px;
+        right: 20%;
+        width: 6%;
+        transform: rotate(0);
+        height: 200px;
+    }
+
+    section div#content_pdf_guide #text_guide img {
+        height: 80px;
+    }
+
+    section div#content_pdf_guide .ebook-title {
+        font-size: 3.5rem;
+        letter-spacing: -3px;
+    }
+
+    section div#content_pdf_guide .text-pdf {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width : 767px) {
+    .form-control {
+        height: 50px;
+    }
+
+    img.logo_site {
+        height: 30px;
+    }
+
+    .widget-phone-header div.phone-list p {
+        font-size: 12px;
+    }
+
+    .widget-phone-header div.phone-list p span {
+        color: #777;
+        font-size: 11px;
+    }
+
+    .widget-phone-header div.phone-icon img {
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    /* Content Form*/
+    section div#content_form {
+        background-image: url('../img/backgrounds/sm/bg_header.png');
+    }
+
+    section div#content_form #form_area p.form-info {
+        font-size: 12px;
+    }
+
+    section div#content_form #form_area #form_get_help button {
+        height: 50px;
+        width: 210px;
+    }
+
+    section div#content_form #form_area #form_get_help p {
+        font-size: 8px;
+    }
+
+    div#logos_area img {
+        width: 70px;
+    }
+
+    /* Content Testimonials*/
+    section div#content_testimonials {
+        background-image: url('../img/backgrounds/sm/bg_testimonials.png');
+    }
+
+    section div.card-testimonial {
+        padding: 10px 40px;
+    }
+
+    section div#content_testimonials h5 {
+        font-size: 1.10rem;
+    }
+
+    section div.card-testimonial p {
+        font-size: 0.85rem;
+        font-weight: normal;
+        line-height: 200%;
+    }
+
+    div#call_to_learn>p {
+        font-size: 20px;
+    }
+
+    /* Content Choose Us*/
+    section div#content_choose_us #text_choose_us {
+        text-align: center;
+    }
+
+    section div#content_choose_us #text_choose_us h4,
+    section div#content_choose_us .offers-list h5,
+    section div#content_custom_adv .offers-list h5 {
+        padding: 10px 40px;
+
+    }
+
+    section div#content_choose_us #text_choose_us p,
+    section div#content_choose_us .offers-list p,
+    section div#content_custom_adv .offers-list p {
+        font-size: 0.9rem;
+        padding: 0 20px;
+        line-height: 200%;
+    }
+
+    section div#content_choose_us .offers-list h5,
+    section div#content_custom_adv .offers-list h5 {
+        font-size: 1.35rem;
+    }
+
+    /* Content PDF Guide*/
+    section div#content_pdf_guide {
+        background-image: url('../img/backgrounds/sm/bg_ebook.png');
+    }
+
+    section div#content_pdf_guide .ebook-title {
+        font-size: 2.2rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .list-group-item {
+        font-size: 0.55rem;
+    }
+
+    footer #footer_center_area .widget-phone-header div.phone-list p {
+        font-size: .9rem;
+        font-weight: normal;
+        line-height: 110%;
+    }
+
+    footer #footer_center_area .widget-phone-header div.phone-list p a {
+        font-weight: 800;
+        font-size: 1rem;
+    }
+
+    footer #footer_center_area .widget-phone-header div.phone-list p span {
+        font-weight: normal;
+        font-size: .85rem;
+    }
+
+    section div#content_form #form_area:before {
+        display: none;
+    }
+
+    section div#content_pdf_guide #text_guide .ebook-title:after {
+        background-image: url(../img/icons/icon_sm_arrow_ebook.png);
+        bottom: 0%;
+        right: 7%;
+        width: 10%;
+        transform: rotate(0);
+        height: 150px;
+    }
+
+    section div#content_testimonials div.card-testimonial p:after {
+        margin-bottom: 1.3rem;
+    }
+}
